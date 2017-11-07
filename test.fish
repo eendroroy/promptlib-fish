@@ -72,16 +72,16 @@ end
 # echo -ne "plib_java_version -> " $nd plib_java_version
 # echo
 # echo -ne "plib_java_major_version -> "; and plib_java_major_version
-# echo
-# echo
-# echo "  ==> ruby"
-# echo -ne "plib_ruby_version -> "; and plib_ruby_version
-# echo
-# echo -ne "plib_rbenv_version -> "; and plib_rbenv_version
-# echo
-# echo -ne "plib_ruby_short_version -> "; and plib_ruby_short_version
-# echo
-# echo
+echo
+echo
+echo "  ==> ruby"
+echo -ne "plib_ruby_version -> "; and plib_ruby_version
+echo
+echo -ne "plib_rbenv_version -> "; and plib_rbenv_version
+echo
+echo -ne "plib_ruby_short_version -> "; and plib_ruby_short_version
+echo
+echo
 # echo "  ==> node"
 # echo -ne "plib_node_version -> "; and plib_node_version
 # echo
