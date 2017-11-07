@@ -102,18 +102,18 @@ echo "  ==> background_job"
 echo -ne "plib_bg_count -> "; and plib_bg_count
 echo
 echo
-# echo "  ==> disk"
-# echo -ne "plib_disk_name -> "; and plib_disk_name
-# echo
-# echo -ne "plib_disk_size -> "; and plib_disk_size
-# echo
-# echo -ne "plib_disk_avail -> "; and plib_disk_avail
-# echo
-# echo -ne "plib_disk_used -> "; and plib_disk_used
-# echo
-# echo -ne "plib_disk_cap -> "; and plib_disk_cap
-# echo
-# echo
+echo "  ==> disk"
+echo -ne "plib_disk_name -> "; and plib_disk_name
+echo
+echo -ne "plib_disk_size -> "; and plib_disk_size
+echo
+echo -ne "plib_disk_avail -> "; and plib_disk_avail
+echo
+echo -ne "plib_disk_used -> "; and plib_disk_used
+echo
+echo -ne "plib_disk_cap -> "; and plib_disk_cap
+echo
+echo
 # echo "  ==> time"
 # echo -ne "plib_time -> "; and plib_time
 # echo
