@@ -13,21 +13,21 @@ for module in $MODULES
   end
 end
 
-# echo
-# echo "  ==> git"
-# echo -ne "plib_is_git -> "; and plib_is_git
-# echo
-# echo -ne "plib_git_branch -> "; and plib_git_branch
-# echo
-# echo -ne "plib_git_rev -> "; and plib_git_rev
-# echo
-# echo -ne "plib_git_dirty -> "; and plib_git_dirty
-# echo
-# echo -ne "plib_git_left_right -> "; and plib_git_left_right
-# echo
-# echo -ne "plib_git_commit_since -> "; and plib_git_commit_since
-# echo
-# echo -ne "plib_is_git_rebasing -> "; and plib_is_git_rebasing
+echo
+echo "  ==> git"
+echo -ne "plib_is_git -> "; and plib_is_git
+echo
+echo -ne "plib_git_branch -> "; and plib_git_branch
+echo
+echo -ne "plib_git_rev -> "; and plib_git_rev
+echo
+echo -ne "plib_git_dirty -> "; and plib_git_dirty
+echo
+echo -ne "plib_git_left_right -> "; and plib_git_left_right
+echo
+echo -ne "plib_git_commit_since -> "; and plib_git_commit_since
+echo
+echo -ne "plib_is_git_rebasing -> "; and plib_is_git_rebasing
 echo
 echo
 echo "  ==> mercurial"
@@ -38,10 +38,10 @@ echo
 echo -ne "plib_hg_rev -> "; and plib_hg_rev
 echo
 echo
-# echo "  ==> subversion"
-# echo -ne "plib_is_svn -> "; and plib_is_svn
-# echo
-# echo -ne "plib_svn_rev -> "; and plib_svn_rev
+echo "  ==> subversion"
+echo -ne "plib_is_svn -> "; and plib_is_svn
+echo
+echo -ne "plib_svn_rev -> "; and plib_svn_rev
 echo
 echo
 echo "  ==> ssh"
