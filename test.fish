@@ -42,14 +42,14 @@ echo
 # echo -ne "plib_is_svn -> "; and plib_is_svn
 # echo
 # echo -ne "plib_svn_rev -> "; and plib_svn_rev
-# echo
-# echo
-# echo "  ==> ssh"
-# echo -ne "plib_ssh_st -> "; and plib_ssh_st
-# echo
-# echo -ne "plib_ssh_client_ip -> "; and plib_ssh_client_ip
-# echo
-# echo -ne "plib_ssh_client_port -> "; and plib_ssh_client_port
+echo
+echo
+echo "  ==> ssh"
+echo -ne "plib_ssh_st -> "; and plib_ssh_st
+echo
+echo -ne "plib_ssh_client_ip -> "; and plib_ssh_client_ip
+echo
+echo -ne "plib_ssh_client_port -> "; and plib_ssh_client_port
 echo
 echo
 echo "  ==> python"
