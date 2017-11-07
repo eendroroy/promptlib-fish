@@ -26,7 +26,3 @@ end
 function plib_pyenv_major_version
   which pyenv > /dev/null; and echo -ne (pyenv version 2>&1 | awk -F '[. ]' '/version/ {print $1}');
 end
-
-function plib_pyenv_major_minor_version
-  which pyenv > /dev/null; and echo -ne (pyenv version 2>&1 | awk -F '[. ]' '/version/ {printf("%s.%s",$1,$2)}');
-end
