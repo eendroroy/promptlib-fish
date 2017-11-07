@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+set SCRIPT_DIR (cd (dirname (status --current-filename)); and pwd)
+
+. $SCRIPT_DIR/modules.fish
+
+for module in $MODULES
+  if test -e $SCRIPT_DIR/modules/$module.fish
+    . $SCRIPT_DIR/modules/$module.fish
+  else
+    echo "module: '$module' not found" >&2
+  end
+end
