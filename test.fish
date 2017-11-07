@@ -50,22 +50,22 @@ end
 # echo -ne "plib_ssh_client_ip -> "; and plib_ssh_client_ip
 # echo
 # echo -ne "plib_ssh_client_port -> "; and plib_ssh_client_port
-# echo
-# echo
-# echo "  ==> python"
-# echo -ne "plib_venv -> "; and plib_venv
-# echo
-# echo -ne "plib_python_version -> "; and plib_python_version
-# echo
-# echo -ne "plib_python_major_version -> "; and plib_python_major_version
-# echo
-# echo -ne "plib_pyenv_version -> "; and plib_pyenv_version
-# echo
-# echo -ne "plib_pyenv_major_version -> "; and plib_pyenv_major_version
-# echo
-# echo -ne "plib_python_major_minor_version -> "; and plib_python_major_minor_version
-# echo
-# echo -ne "plib_pyenv_major_minor_version -> "; and plib_pyenv_major_minor_version
+echo
+echo
+echo "  ==> python"
+echo -ne "plib_venv -> "; and plib_venv
+echo
+echo -ne "plib_python_version -> "; and plib_python_version
+echo
+echo -ne "plib_python_major_version -> "; and plib_python_major_version
+echo
+echo -ne "plib_pyenv_version -> "; and plib_pyenv_version
+echo
+echo -ne "plib_pyenv_major_version -> "; and plib_pyenv_major_version
+echo
+echo -ne "plib_python_major_minor_version -> "; and plib_python_major_minor_version
+echo
+echo -ne "plib_pyenv_major_minor_version -> "; and plib_pyenv_major_minor_version
 echo
 echo
 echo "  ==> java"
