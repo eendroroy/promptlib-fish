@@ -1,0 +1,10 @@
+#!/usr/bin/env fish
+
+function plib_is_svn
+  svn info 2>/dev/null != ""; and echo -n 1; or echo -n 0;
+end
+
+function plib_svn_rev
+  set -l __rev (svn info 2>/dev/null | grep Revision | awk '{print $2}'); or return;
+  echo -ne $__rev;
+end
