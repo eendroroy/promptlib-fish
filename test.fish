@@ -114,10 +114,10 @@ echo
 echo -ne "plib_disk_cap -> "; and plib_disk_cap
 echo
 echo
-# echo "  ==> time"
-# echo -ne "plib_time -> "; and plib_time
-# echo
-# echo -ne "plib_date -> "; and plib_date
-# echo
-# echo -ne "plib_day -> "; and plib_day
-# echo
+echo "  ==> time"
+echo -ne "plib_time -> "; and plib_time
+echo
+echo -ne "plib_date -> "; and plib_date
+echo
+echo -ne "plib_day -> "; and plib_day
+echo
