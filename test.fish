@@ -90,12 +90,12 @@ end
 # echo -ne "plib_node_major_version -> "; and plib_node_major_version
 # echo
 # echo -ne "plib_nodenv_major_version -> "; and plib_nodenv_major_version
-# echo
-# echo
-# echo "  ==> elixir"
-# echo -ne "plib_elixir_version -> "; and plib_elixir_version
-# echo
-# echo -ne "plib_exenv_version -> "; and plib_exenv_version
+echo
+echo
+echo "  ==> elixir"
+echo -ne "plib_elixir_version -> "; and plib_elixir_version
+echo
+echo -ne "plib_exenv_version -> "; and plib_exenv_version
 echo
 echo
 echo "  ==> background_job"
