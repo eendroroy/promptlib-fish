@@ -82,14 +82,14 @@ echo
 echo -ne "plib_ruby_short_version -> "; and plib_ruby_short_version
 echo
 echo
-# echo "  ==> node"
-# echo -ne "plib_node_version -> "; and plib_node_version
-# echo
-# echo -ne "plib_nodenv_version -> "; and plib_nodenv_version
-# echo
-# echo -ne "plib_node_major_version -> "; and plib_node_major_version
-# echo
-# echo -ne "plib_nodenv_major_version -> "; and plib_nodenv_major_version
+echo "  ==> node"
+echo -ne "plib_node_version -> "; and plib_node_version
+echo
+echo -ne "plib_nodenv_version -> "; and plib_nodenv_version
+echo
+echo -ne "plib_node_major_version -> "; and plib_node_major_version
+echo
+echo -ne "plib_nodenv_major_version -> "; and plib_nodenv_major_version
 echo
 echo
 echo "  ==> elixir"
