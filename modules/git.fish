@@ -1,7 +1,11 @@
 #!/usr/bin/env fish
 
 function plib_is_git
-  git branch 2>/dev/null != ''; and echo -n 1; or echo -n 0;
+  if [ "(\git branch 2>/dev/null)" != "" ]
+     echo -ne 1;
+  else
+     echo -ne 0;
+  end
 end
 
 function plib_git_branch
