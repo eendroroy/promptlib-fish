@@ -2,12 +2,12 @@
 
 set SCRIPT_DIR (pushd (dirname (status --current-filename)); and pwd; and popd)
 
-. $SCRIPT_DIR/modules.fish
+. $SCRIPT_DIR/../modules.fish
 
 for module in $MODULES
   if test -e $SCRIPT_DIR/modules/$module.fish
-    echo "$SCRIPT_DIR/modules/$module.fish"
-    . "$SCRIPT_DIR/modules/$module.fish"
+    echo "$SCRIPT_DIR/../modules/$module.fish"
+    . "$SCRIPT_DIR/../modules/$module.fish"
   else
     echo "module: '$module' not found" >&2
   end
