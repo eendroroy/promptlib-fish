@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-set SCRIPT_DIR (cd (dirname (status --current-filename)); and pwd)
+set SCRIPT_DIR (pushd (dirname (status --current-filename)); and pwd; and popd)
 
 . $SCRIPT_DIR/modules.fish
 

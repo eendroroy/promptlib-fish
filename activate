@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-set SCRIPT_DIR (cd (dirname (status --current-filename)); and pwd)
+set SCRIPT_DIR (pushd (dirname (status --current-filename)); and pwd; and popd)
 
 . $SCRIPT_DIR/modules.fish
 
