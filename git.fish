@@ -1,7 +1,8 @@
 #!/usr/bin/env fish
 
 function plib_is_git
-  if [ "(\git branch 2>/dev/null)" != "" ]
+  set -l is_git (\git branch 2>/dev/null)
+  if [ "$is_git" != "" ]
      echo -ne 1;
   else
      echo -ne 0;

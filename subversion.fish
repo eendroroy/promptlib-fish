@@ -1,7 +1,16 @@
 #!/usr/bin/env fish
 
 function plib_is_svn
-  svn info 2>/dev/null != ""; and echo -n 1; or echo -n 0;
+   != ""; and echo -n 1; or echo -n 0;
+end
+
+function plib_is_svn
+  set -l is_svn (\svn info 2>/dev/null)
+  if [ "$is_svn" != "" ]
+     echo -ne 1;
+  else
+     echo -ne 0;
+  end
 end
 
 function plib_svn_rev

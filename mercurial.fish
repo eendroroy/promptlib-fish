@@ -1,7 +1,12 @@
 #!/usr/bin/env fish
 
 function plib_is_hg
-  hg branch 2>/dev/null != ''; and echo -ne 1; or echo -ne 0
+  set -l is_hg (\hg branch 2>/dev/null)
+  if [ "$is_hg" != "" ]
+     echo -ne 1;
+  else
+     echo -ne 0;
+  end
 end
 
 function plib_hg_branch
